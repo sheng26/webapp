@@ -1,0 +1,114 @@
+.orderMenuTitles #menu_title {
+	width: 60%;
+}
+
+.orderListMenu .menu {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/*https://freefrontend.com/css-horizontal-menus/*/
+.categories {
+	position: relative;
+	width: 710px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 15px;
+	font-size: 0;
+	font-weight: bold;
+
+}
+
+/*https://freefrontend.com/css-horizontal-menus/*/
+.categories button{
+	line-height: 50px;
+	height: 100%;
+	/* font-size: 25px; */
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+/*https://freefrontend.com/css-horizontal-menus/*/
+.categories .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .3s ease 0s;
+	border-radius: 8px;
+}
+.categories .category {
+	font-size: 18px;
+	width: 20%;
+	border-radius: 15px;
+}
+
+.menu .items {
+	width: 90%;
+	height: 59%;
+	border: 5px solid;
+	border-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.menu .items .itemBtn{
+	height: 25%;
+	width: 118px;
+	font-size: 20px;
+	opacity: 0.88;
+	cursor: pointer;
+}
+
+.menu .items .itemBtn:hover {opacity: 1;}
+
+.menu .orderTotal {
+	justify-content: left;
+	font-size: 20px;
+	width: 46%;
+}
+
+.menu .orderTotal .total {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.menu .finishOrder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	padding-top: 50px;
+}
+
+.menu .finishBtns {
+	height: 85%;
+	width: 25%;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	border-color: black;
+	cursor: pointer;
+}
+
+.menu #placeOrder {
+	font-size: 25px;
+}
+
+.menu .finishBtns:hover {
+	color: white;
+	background: #222;
+}

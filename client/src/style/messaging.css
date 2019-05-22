@@ -1,0 +1,83 @@
+div.messagingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 400px;
+  padding-top: 50px;
+}
+
+div.contacts{
+  width: 30%;
+  color: #464E51;
+  max-height: 400px;
+  overflow: auto;
+}
+
+div.contacts ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #89CFF0;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+div.contacts li {
+  border-bottom: 1px solid white;
+}
+
+div.contacts li a {
+  display: block;
+  color: #464E51;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.contacts li a:hover {
+  background-color: #83A2B4;
+}
+
+
+div.conversations {
+  width: 60%;
+  padding-left: 50px;
+}
+
+div.conversationContainer {
+  height: 100%;
+  border-radius: 15px;
+}
+
+div.conversation {
+  height: 100%;
+  overflow: auto;
+  background-color: #f2f2f2;
+}
+
+div.message {
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 50%;
+  background-color: #f48f42;
+  margin: 5px;
+  font-size: 14px;
+}
+
+div.right {
+  text-align: right;
+  display: block;
+  float: right;
+  clear: both;
+}
+
+div.left {
+  text-align: left;
+  display: block;
+  float: left;
+  clear: both;
+}

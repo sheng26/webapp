@@ -1,0 +1,50 @@
+.form_container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3C3D3F;
+  max-width: 900px;
+  margin: auto;
+}
+
+.welcomeMsg {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.authenticate_form {
+  background-color: #f2f2f2;
+  padding: 25px;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.authenticate_form input {
+  display: block;
+}
+
+.authenticate_title {
+  text-align: center;
+  font-size: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  margin: 8px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.authenticateBtn {
+  display: inline-block;
+}
+
+.loginErrorMsg {
+  color: red;
+}

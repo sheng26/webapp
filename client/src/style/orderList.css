@@ -1,0 +1,89 @@
+.orderMenuTitles #oder_list_title {
+	width: 40%;
+}
+
+.orderListMenu .orderList {
+	width: 40%;
+	height: 500px;
+	border: 10px inset;
+	border-color: #2D2E2F;
+}
+
+.orderListMenu .orderListItems {
+	height: 7%;
+	background-color: #F6F5F5;
+	display: flex;
+}
+
+.orderList .item {
+	margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.orderList .removeItemButton {
+	background-color: transparent;
+	border: None;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.orderList .removeItemButton:hover {opacity: 1;}
+
+.orderListItems .decrementBtn {
+	background-color: transparent;
+	border: None;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.orderList .decrementBtn:hover {opacity: 1;}
+
+.orderListItems .incrementBtn {
+	background-color: transparent;
+	border: None;
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.orderList .incrementBtn:hover {opacity: 1;}
+
+.orderList .inputQty {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+}
+
+.orderList .paymentItemsHeader {
+	display: flex;
+	text-align: center;
+}
+
+.paymentItemsHeader .itemQty {
+	flex: 0.5;
+}
+
+.paymentItemsHeader .itemName {
+	flex: 3;
+}
+
+.orderList .itemPrice {
+	flex: 1;
+}
+
+.orderList .paymentItems {
+	background-color: rgb(209, 209, 209);
+	font-weight: bold;
+	font-size: 18px;
+}

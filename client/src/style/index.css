@@ -1,0 +1,57 @@
+/*css for AddMenuItemForm begin*/
+.AddFormBody {
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+.addForm{
+	padding: 10px;
+	background-color: #f2f2f2;
+	width: 50%;
+	display: inline-block;
+}
+
+.textInputs {
+	width: 100%;
+	margin: 8px 0;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.selectInputs {
+	margin: 8px 0;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.btn {
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	line-height: 8px;
+	border-radius: 4px;
+	background-color: #4CAF50; /* Green */
+}
+/*css for AddMenuItemForm end*/
+

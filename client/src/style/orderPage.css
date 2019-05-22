@@ -1,0 +1,17 @@
+body {
+	font-family: courier new;
+}
+
+.orderMenuTitles {
+	display: flex;
+	text-align: right;
+}
+
+/* .orderMenuTitles #order_list_title {
+	display: flex;
+	text-align: left;
+} */
+
+.orderListMenu {
+	display: flex;
+}
