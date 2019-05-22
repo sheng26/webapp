@@ -335,7 +335,6 @@ $ curl -H "Content-Type: application/json" -X POST -d '{"name":"week test","star
       - selected_intervals: the currently selected intervals in the calendar,
       - uid: the last interval id,
       - updated_at: date when the calendar row was updated
-      - created_at: date when the calendar row was created
 - response 500
     - body: error message
 - response: 401

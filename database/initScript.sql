@@ -48,7 +48,6 @@ CREATE TABLE calendars (
     selected_intervals text,
     uid integer default 1,
     updated_at timestamp not null default now() on update now(),
-	created_at timestamp not null default now(),
 	PRIMARY KEY (c_id)
 );
 

@@ -56,10 +56,10 @@ function initializeConnection(config) {
 }
 
 connection = initializeConnection({
-    host     : 'us-cdbr-iron-east-03.cleardb.net',
-    user     : 'ba0377610f29a3',
-    password : 'ba7536a6',
-    database : 'heroku_fe0497af3fd9759',
+    host     : 'us-cdbr-iron-east-02.cleardb.net',
+    user     : 'b48689093dca92',
+    password : '16192734',
+    database : 'heroku_04e29547e248034',
 });
 
 app.use(session({
